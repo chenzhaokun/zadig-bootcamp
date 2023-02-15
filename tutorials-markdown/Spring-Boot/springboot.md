@@ -69,7 +69,7 @@ Zadig 提供三种方式管理服务配置：
 
 ```bash
 cd $WORKSPACE/zadig/examples/voting-app/worker
-docker build -t $IMAGE -f Dockerfile.j .
+docker build -t $IMAGE -f Dockerfile .
 docker push $IMAGE
 ```
 
